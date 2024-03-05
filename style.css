@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+#left-container {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(22, 118, 228);     
+}
+
+#text-area {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+#b1 {
+    margin-top: 10px;
+    height: 45px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    background-color:black;
+}
+
+#right-container {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#notes-container {
+    height: 100%;
+    width: 50%;
+    color: white;
+
+}
